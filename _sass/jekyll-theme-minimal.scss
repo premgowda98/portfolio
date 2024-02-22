@@ -1,5 +1,7 @@
 @import "fonts";
 @import "rouge-github";
+@import "custom";
+
 
 body {
   background-color: #fff;
@@ -100,9 +102,6 @@ th {
   color:#444;
 }
 
-img {
-  max-width:100%;
-}
 
 kbd {
   background-color: #fafbfc;

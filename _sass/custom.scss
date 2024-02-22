@@ -1,0 +1,55 @@
+/* custoom css*/
+
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+.media-logos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-top: 2px black solid;
+    padding-top: 20px;
+}
+
+.media-logos a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.media-logos p {
+    margin: 0px;
+}
+
+
+.profile_image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile_image div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_image h1,.profile_image h4 {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
