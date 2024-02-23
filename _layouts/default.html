@@ -26,7 +26,7 @@
 
           <div>
             <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-            <h4>Full Stack Developer</h4>
+            <h4>{{ site.job_position }}</h4>
           </div>
         </div>
 
@@ -51,7 +51,7 @@
                     </g> 
                   </g>
                 </svg>
-                <p>premgowda98</p>
+                <p>{{ site.github_url }}</p>
               </a>
             {% endif %}
           </div>
@@ -59,7 +59,7 @@
             {% if site.linkedin %}
               <a href="https://linkedin.com/in/{{ site.linkedin }}"  target="_blank">
                 <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="22px" height="22px"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>linkedin [#161]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -7479.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z" id="linkedin-[#161]"> </path> </g> </g> </g> </g></svg>
-                <p>premgowda98</p>
+                <p>{{ site.linkedin }}</p>
               </a>
             {% endif %}
           </div>
@@ -67,15 +67,15 @@
             {% if site.mail_address %}
               <a href="mailto:{{ site.mail_address }}">
                 <svg fill="#000000" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M32 6v20c0 1.135-0.865 2-2 2h-2v-18.151l-12 8.62-12-8.62v18.151h-2c-1.135 0-2-0.865-2-2v-20c0-0.568 0.214-1.068 0.573-1.422 0.359-0.365 0.859-0.578 1.427-0.578h0.667l13.333 9.667 13.333-9.667h0.667c0.568 0 1.068 0.214 1.427 0.578 0.359 0.354 0.573 0.854 0.573 1.422z"></path> </g></svg>                
-                <p>premkumarmvks@gmail.com</p>
+                <p>{{ site.mail_address }}</p>
               </a>
             {% endif %}
           </div>
           <div>
             {% if site.phone_number %}
-              <a href="tel:{{ site.phone_number }}">
+              <a href="tel:+{{ site.phone_number }}">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                <p>+91 9538507538</p>
+                <p>+{{ site.phone_number }}</p>
               </a>
             {% endif %}
           </div>
@@ -87,7 +87,12 @@
               </a>
             {% endif %}
           </div>
-
+        </div>
+        <div class="download_resume">
+          <a href="/docs/Resume.pdf" target="_blank">
+              <svg width="20px" height="20px" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M77.749 42.134c1.157 27.686 11.572 35.67 27.002 55.113 19.417 24.595 34.075 38.438 45.969 41.657 17.809 4.764 27.645-10.302 10.287-17.834-17.36-7.533-48.22-5.151-66.22-2.383-29.253 4.7-50.277 13.07-66.543 31.355-14.272 15.839-1.607 27.686 12.666 13.907 13.051-12.233 30.474-46.034 37.61-61.808 9.516-20.99 20.188-39.661 18.806-64.256-1.382-24.595-20.348-18.8-19.577 4.25Z" style="fill:none;stroke:#f00000;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"></path></g></svg>
+              Resume
+          </a>
         </div>
 
       </header>
