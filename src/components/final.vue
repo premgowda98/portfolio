@@ -1,13 +1,16 @@
 <template>
-  <div class="flex flex-col md:flex-row justify-center items-start gap-5 mt-36">
-    <Info class="fixed top-0 left-0"/>
-    <div class="flex flex-col">
+  <div class="flex flex-col md:flex-row justify-center items-center md:items-start gap-5 mt-36">
+    <div class="">
+      <Info/>
+    </div>
+    <div class="flex flex-col md:ml-52 max-w-4xl">
       <Options @selected_section="choosen_section"/>
       <div class="bg-white rounded-lg p-5">
-        <component :is="components[current_component]"></component>
+        <keep-alive>
+          <component :is="components[current_component]"></component>
+        </keep-alive>
       </div>
     </div>
-
   </div>
 </template>
 

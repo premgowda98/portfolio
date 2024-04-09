@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-            <h1 class="text-3xl font-bold">Contact</h1>
+            <!-- <h1 class="text-3xl font-bold">Contact</h1> -->
         </div>
         <div id="calendly-inline-widget" class="text-black" style="min-width:320px;height:780px;"></div>
     </div>

@@ -12,8 +12,8 @@
       font-display: swap;
     }
 
-    body,html {
-      @apply font-nunito bg-gradient-to-b from-[rgba(226,226,227,1)]  to-[rgba(158,217,241,1)];
+    body {
+      @apply font-nunito bg-gradient-to-b from-[rgba(226,226,227,1)]  to-[rgba(158,217,241,1)] flex justify-center;
       /* @apply font-nunito bg-white md:bg-gradient-to-b md:from-[rgba(226,226,227,1)]  md:to-[rgba(158,217,241,1)]; */
 
     }
