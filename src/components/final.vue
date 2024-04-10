@@ -5,9 +5,11 @@
     </div>
     <div class="flex flex-col md:ml-52 max-w-4xl">
       <Options @selected_section="choosen_section"/>
-      <div class="bg-white rounded-lg p-5">
+      <div class="bg-white rounded-lg p-5 min-w-2xl max-w-2xl">
         <keep-alive>
-          <component :is="components[current_component]"></component>
+          <Transition name="slide-fade">
+            <component :is="components[current_component]"></component>
+          </Transition>
         </keep-alive>
       </div>
     </div>
@@ -43,5 +45,17 @@ const choosen_section = (val)=>{
 </script>
 
 <style scoped>
+.slide-fade-enter-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
 
+/* .slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+} */
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translatey(20px);
+  opacity: 0;
+}
 </style>
