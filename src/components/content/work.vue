@@ -1,10 +1,10 @@
 <template>
-    <div>
+    <div class="px-8">
         <div class="flex flex-col items-center justify-center my-6">
             <h2 class="text-2xl font-bold my-3">Insight Consultants (2022-24)</h2>
             <div class="flex flex-row justify-start gap-5 my-6">
                 <div class="bg-gradient-to-b from-[rgba(131,58,180,1)]  to-[rgba(253,29,29,1)] w-1"></div>
-                <div class="md:w-96">
+                <div class="max-w-xl">
                     <div class="flex flex-col">
                         <div class="flex flex-row justify-between">
                             <p class="text-xl font-bold">Software Engineer</p>
@@ -33,7 +33,7 @@
             </div>
             <div class="flex flex-row justify-start gap-5 my-6">
                 <div class="bg-gradient-to-b from-[rgba(29,253,179,1)]  to-[rgba(131,58,180,1)] w-1"></div>
-                <div class="md:w-96">
+                <div class="max-w-xl">
                     <div class="flex flex-col">
                         <div class="flex flex-row justify-between">
                             <p class="text-xl font-bold">Finance Engineer</p>

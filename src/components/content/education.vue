@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-3">
+    <div class="mt-3 px-8">
         <div>
             <h1 class="text-3xl font-bold">Certifications</h1>
         </div>
@@ -36,7 +36,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="px-8">
         <div>
             <h1 class="text-3xl font-bold">Education</h1>
         </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="px-3">
+    <div class="px-8">
         <div>
             <h1 class="text-3xl font-bold">About</h1>
             <p class="my-4">A versatile problem-solver with a passion for exploration, continuously seeking new challenges to tackle across a diverse technical landscape, thriving in dynamic environments that foster innovation and continuous learning.</p>
