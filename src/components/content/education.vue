@@ -3,7 +3,16 @@
         <div>
             <h1 class="text-3xl font-bold">Certifications</h1>
         </div>
-        <div class="mx-10 my-5 flex flex-col gap-5">
+        <div class="mx-2 md:mx-10 my-5 flex flex-col gap-5">
+            <div class="flex flex-col bg-[#B0F7C6] p-3 rounded-lg">
+                <div class="flex justify-between">
+                    <h3 class="font-bold text-lg">Neo4J Fundamentals</h3>
+                    <span class="font-bold text-lg">Jun 2024</span>
+                </div>
+                <div>
+                    <p>Neo4j Graph Academy</p>
+                </div>
+            </div>
             <div class="flex flex-col bg-[#B0F7C6] p-3 rounded-lg">
                 <div class="flex justify-between">
                     <h3 class="font-bold text-lg">RabbitMQ Training Course</h3>
@@ -32,7 +41,7 @@
                 </div>
             </div>
             <div class="flex justify-center">
-                <a href="https://www.linkedin.com/in/premgowda98/details/certifications/" target="_blank" class="bg-rose-500 rounded-lg p-2 text-md text-white font-bold">View More</a>
+                <a href="https://www.linkedin.com/in/premgowda98/details/certifications" target="_blank" class="bg-rose-500 rounded-lg p-2 text-md text-white font-bold">View More</a>
             </div>
         </div>
     </div>

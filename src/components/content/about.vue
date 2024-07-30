@@ -31,7 +31,7 @@
                     </div>
                     <div class="flex flex-col gap-2">
                         <h3 class="font-bold text-lg">Devops</h3>
-                        <p>Skilled in DevOps tools like Docker, Nginx, and Azure Pipelines, enabling streamlined deployment, scalability, and efficient CI/CD workflows</p>
+                        <p>Skilled in DevOps tools like Docker, Kubernetes, Ansible, Nginx, and Azure Pipelines, enabling streamlined deployment, scalability, and efficient CI/CD workflows</p>
                     </div>
                 </div>
                 <div class="bg-[#FFEED0] rounded-lg p-3 flex justify-start gap-5 ">
