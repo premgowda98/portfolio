@@ -1,6 +1,6 @@
 <template>
     <div class="relative flex flex-col items-center justify-center">
-        <div class="bg-white rounded-lg p-10 flex flex-col justify-center items-center md:fixed top-40">
+        <div class="bg-white rounded-lg p-10 flex flex-col justify-center items-center md:fixed top-32">
             <div>
                 <img src="/logo.jpg" class="w-48 h-48 rounded-2xl absolute -top-20 left-24" alt="">
             </div>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col items-center">
-                    <button class="bg-rose-500 p-3 px-4 rounded-lg text-white font-bold">Download Resume</button>
+                    <a class="bg-rose-500 p-3 px-4 rounded-lg text-white font-bold" href="https://github.com/premgowda98/static-files/blob/main/Resume_v3.pdf?raw=true" target="_blank">Download Resume</a>
                 </div>
             </div>
         </div>

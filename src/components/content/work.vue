@@ -16,16 +16,20 @@
                                 <p>Python</p>
                                 <p>Vue3, Nuxt3</p>
                                 <p>G4A, SEO</p>
-                                <p>NGINX</p>
-                                <p>Docker</p>
+                                <p>Nginx</p>
+                                <p>Docker, Ansible, Linux</p>
                                 <p>Azure Pipelines</p>
                             </div>
                         </div>
                         <div class="ml-8">
                             <ul class="list-disc">
-                                <li>Developed and deployed a scalable digital fraud prevention solution, <b>Signetcloud.ai</b>, utilizing advanced facial verification, email validation, and document recognition models</li>
-                                <li>Designed and deployed an automated email campaign management tool, leveraging AI-powered content generation to improve customer outreach and engagement.</li>
-                                <li>Built an interactive chatbot for the leadership team using the RAG model, enabling senior leadership to better understand and address employee pain points based on the form filled by employees.</li>
+                                <li>Spearheaded development of a comprehensive <b>ID Verification Product</b>, integrating document verification, facial recognition, and bank statement analysis. </li>
+                                <li>Enhanced fraud detection and operational efficiency, reducing manual processing time by <b>60%</b>.</li>
+                                <li>Implemented frontend modernisation, migrating from Vanilla JS/CSS to <b>Vue.js and Nuxt.js</b>, for improved performance.</li>
+                                <li>Led DevOps efforts, implementing a CI/CD pipeline with <b>Azure Pipelines</b>, reducing deployment time and enhancing team efficiency.</li>
+                                <li>Played a crucial role in product launch and <b>client acquisition</b>, securing the first paying customer within the initial release phase.</li>
+                                <li>Engineered a <b>RAG model</b>, enabling leadership to extract actionable insights from employee surveys via LLM-powered chat.</li>
+                                <li>Designed and deployed an automated email campaign management tool, leveraging <b>AI-powered</b> content generation to improve customer outreach and engagement.</li>
                             </ul>
                         </div>
                     </div>
@@ -50,9 +54,9 @@
                         </div>
                         <div class="ml-8">
                             <ul class="list-disc">
+                                <li><b>Optimized Underwriting with Process Automation:</b> Spearheaded the development of a Python-based automated underwriting process, reducing the manual verification time from 10 minutes to less than 1 minute per customer.</li>
                                 <li><b>Developed Impactful Power BI Dashboards:</b> Designed and built Power BI dashboards to track critical underwriting Key Performance Indicators (KPIs), enabling data-driven decision-making for the underwriting team.</li>
                                 <li><b>Automated Reconciliation Process:</b> Led the implementation of an automated reconciliation project using UiPath and Python, streamlining a previously manual-intensive process and improving efficiency</li>
-                                <li><b>Optimized Underwriting with Process Automation:</b> Spearheaded the development of a Python-based automated underwriting process, reducing the manual verification time from 10 minutes to less than 1 minute per customer.</li>
                             </ul>
                         </div>
                     </div>
