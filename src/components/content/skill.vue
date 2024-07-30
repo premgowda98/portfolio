@@ -1,8 +1,5 @@
 <template>
     <div class="px-8 mb-5">
-        <div>
-            <!-- <h1 class="text-2xl font-bold bg-[#FFEED0] text-center rounded-lg p-3">Skillsets</h1> -->
-        </div>
         <div class="flex flex-col md:flex-row justify-center gap-8">
             <div class="flex flex-col items-center gap-2 mt-5">
                 <p class="text-2xl font-bold">Backend</p>
@@ -25,6 +22,10 @@
                 <a href="https://github.com/premgowda98" target="_blank"><img style="margin: 10px" :src="iconSrc['devops']"/></a>
                 <img src="https://img.shields.io/badge/ngrok-140648?style=for-the-badge&logo=Ngrok&logoColor=white"/> 
             </div>
+        </div>
+        <div class="flex flex-col items-center gap-4 justify-center mt-10">
+            <p class="font-bold text-2xl">Github Contribution Graph (30 Days)</p>
+            <img src="https://github-readme-activity-graph.vercel.app/graph?username=premgowda98&theme=high-contrast&bg_color=050000&color=ffffff&grid=false&hide_title=true&point">
         </div>
     </div>
 </template>
