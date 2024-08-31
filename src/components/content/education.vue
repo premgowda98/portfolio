@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="flex justify-center">
-                <a href="https://www.linkedin.com/in/premgowda98/details/certifications" target="_blank" class="bg-rose-500 rounded-lg p-2 text-md text-white font-bold">View More</a>
+                <a href="https://www.linkedin.com/in/premgowda98" target="_blank" class="bg-rose-500 rounded-lg p-2 text-md text-white font-bold">View More</a>
             </div>
         </div>
     </div>

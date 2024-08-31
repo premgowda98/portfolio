@@ -8,17 +8,17 @@
                     <div class="flex flex-col">
                         <div class="flex flex-row justify-between">
                             <p class="text-xl font-bold">Software Engineer</p>
-                            <p class="text-lg font-bold">2023-24</p>
+                            <p class="text-lg font-bold">2023-present</p>
                         </div>
                         <div class="flex gap-2 my-3">
                             <div class="font-bold">Working Skills: </div>
                             <div>
-                                <p>Python</p>
-                                <p>Vue3, Nuxt3</p>
-                                <p>G4A, SEO</p>
+                                <p>Python, RDBMS, NoSQL, MQ</p>
+                                <p>Docker, K8s, Linux</p>
                                 <p>Nginx</p>
-                                <p>Docker, Ansible, Linux</p>
+                                <p>Vue3, Nuxt3</p>
                                 <p>Azure Pipelines</p>
+                                <p>G4A, SEO</p>
                             </div>
                         </div>
                         <div class="ml-8">
@@ -46,9 +46,10 @@
                         <div class="flex gap-2 my-3">
                             <div class="font-bold">Working Skills: </div>
                             <div>
+                                <p>Python (FastAPI, Pandas, Streamlit)</p>
+                                <p>MongoDB</p>
+                                <p>Docker</p>
                                 <p>PowerBI</p>
-                                <p>Python (Pandas, Streamlit)</p>
-                                <p>UI Path</p>
                                 <p>Machine Learning</p>
                             </div>
                         </div>

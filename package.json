@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "posthog-js": "^1.160.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {

@@ -14,9 +14,12 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-XS1G27Q7T2');
+      
+      if (window.location.hostname !== 'localhost') {
+        gtag('js', new Date());
+      
+        gtag('config', 'G-XS1G27Q7T2');
+      }
     </script>
   </body>
 </html>

@@ -2,5 +2,12 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
+import posthogPlugin from "./plugins/posthog"
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+if (import.meta.env.MODE==="production"){
+    app.use(posthogPlugin);
+}
+
+app.mount('#app')
