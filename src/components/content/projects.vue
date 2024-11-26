@@ -1,5 +1,12 @@
 <template>
   <div class="px-8 flex flex-col gap-5 my-10">
+    <div>
+      <a href="https://github.com/premgowda98/byor" target="_blank" class="text-2xl text-blue-600 hover:text-red-600 font-bold">Build Your Own Redis (BYOR)</a>
+      <ul class="list-disc mx-5 my-2">
+        <li>Built a custom Redis implementation supporting basic commands (PING, ECHO, SET, GET) and master-slave replication.</li>
+        <li>This Redis solution can be interacted with redis-cli.</li>
+      </ul>
+    </div>
     <div >
       <p class="text-2xl font-bold text-blue-600 hover:text-red-600">Multi-purpose Home Server: From Ad Blocking to Kubernetes Cluster</p>
       <ul class="list-disc mx-5 my-2">
