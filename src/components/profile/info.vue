@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col items-center">
-                    <a class="bg-rose-500 p-3 px-4 rounded-lg text-white font-bold" href="https://github.com/premgowda98/static-files/blob/main/resume_active.pdf?raw=true" target="_blank">Download Resume</a>
+                    <a class="bg-rose-500 p-3 px-4 rounded-lg text-white font-bold" href="https://github.com/premgowda98/static-files/blob/main/resume/resume_active.pdf?raw=true" target="_blank">Download Resume</a>
                 </div>
             </div>
         </div>
