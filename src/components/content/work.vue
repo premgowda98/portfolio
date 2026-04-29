@@ -1,90 +1,95 @@
 <template>
     <div class="px-8">
+        <!-- ZopSmart -->
         <div class="flex flex-col items-center justify-center my-6">
-            <h2 class="text-2xl font-bold my-3">Edgebricks (2024-)</h2>
+            <h2 class="text-2xl font-bold my-3">ZopSmart (Kroger.com)</h2>
             <div class="flex flex-row justify-start gap-5 my-6">
-                <div class="bg-gradient-to-b from-[rgba(247,81,82,1)]  to-[rgba(44,143,46,1)] w-1"></div>
-                <div class="max-w-xl">
+                <div class="bg-gradient-to-b from-[#3B82F6] to-[#1D4ED8] w-1 rounded"></div>
+                <div class="max-w-2xl">
                     <div class="flex flex-col">
                         <div class="flex flex-row justify-between">
-                            <p class="text-xl font-bold">Backend Developer</p>
-                            <p class="text-lg font-bold">Sep 24 - present</p>
+                            <p class="text-xl font-bold">Software Development Engineer 2 (SDE-2)</p>
+                            <p class="text-lg font-semibold text-gray-600">Dec 2024 - Present</p>
                         </div>
                         <div class="flex gap-2 my-3">
-                            <div class="font-bold">Working Skills: </div>
+                            <div class="font-bold">Tech Stack:</div>
                             <div>
-                                <p>Python, RDBMS</p>
-                                <p>Docker, Linux</p>
+                                <p>Golang, Python, Kafka (Avro/CDC), PostgreSQL, Kubernetes</p>
+                                <p>Databricks, PySpark, Spark SQL, Delta Lake</p>
+                                <p>Azure, Harness CI/CD, GitHub Actions, Grafana</p>
                             </div>
                         </div>
-                        <div class="ml-8">
-                            <ul class="list-disc">
-                                <li>Contributed to transitioning a self-hosted chatbot solution to a SaaS-ready architecture, enabling scalability and multi-tenancy for cloud deployment.</li>
-                                <li>Assisted in backend optimizations and refactoring efforts to ensure seamless integration of the chatbot solution with SaaS infrastructure.</li>
-                                <li>Gained exposure to developing chatbot solutions using various large language models (LLMs), enhancing conversational capabil.</li>
-                                <li>Collaborated with the DevOps team, utilizing Docker, Linux, and Ansible to gain hands-on experience in deployment automation.</li>
+                        <div class="ml-8 mt-4">
+                            <ul class="list-disc space-y-2">
+                                <li>Identified and resolved critical data integrity issues in Kafka event publishing pipelines processing <span class="font-semibold">1-3 million daily events</span> (20M+ during full loads) by implementing proper Avro schema encoding and validation</li>
+                                <li>Co-designed Generic Event Schema with Avro nested metadata; <span class="font-semibold">reduced downstream processing overhead by 40%</span> while maintaining 100% backward compatibility</li>
+                                <li>Drove 4-month cross-functional data quality initiative spanning 3 teams; <span class="font-semibold">increased data accuracy from 90-95% to 99%</span> through internal reconciliation tooling</li>
+                                <li>Designed and implemented Harness CI/CD pipeline for feature environment deployments across 5-6 microservices; <span class="font-semibold">reduced environment-related bug escapes by 30%</span></li>
+                                <li>Mentored 2 junior engineers through design RFCs, code reviews, and knowledge-sharing sessions on Kubernetes orchestration, Kafka streaming patterns, and Golang best practices</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Edgebricks -->
         <div class="flex flex-col items-center justify-center my-6">
-            <h2 class="text-2xl font-bold my-3">Insight Consultants (2022-24)</h2>
+            <h2 class="text-2xl font-bold my-3">Edgebricks</h2>
             <div class="flex flex-row justify-start gap-5 my-6">
-                <div class="bg-gradient-to-b from-[rgba(131,58,180,1)]  to-[rgba(253,29,29,1)] w-1"></div>
-                <div class="max-w-xl">
+                <div class="bg-gradient-to-b from-[#F59E0B] to-[#D97706] w-1 rounded"></div>
+                <div class="max-w-2xl">
                     <div class="flex flex-col">
                         <div class="flex flex-row justify-between">
-                            <p class="text-xl font-bold">Software Engineer</p>
-                            <p class="text-lg font-bold">Oct 22 - Sep 24</p>
+                            <p class="text-xl font-bold">Backend Engineer</p>
+                            <p class="text-lg font-semibold text-gray-600">Sep 2024 - Nov 2024</p>
+                        </div>
+                        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 my-3">
+                            <p class="text-sm italic text-gray-700">Note: Early-stage AI startup that ceased operations due to funding challenges. Delivered complete MVP within 3-month timeframe.</p>
                         </div>
                         <div class="flex gap-2 my-3">
-                            <div class="font-bold">Working Skills: </div>
+                            <div class="font-bold">Tech Stack:</div>
                             <div>
-                                <p>Python, RDBMS, NoSQL, MQ</p>
-                                <p>Docker, K8s, Linux</p>
-                                <p>Nginx</p>
-                                <p>Vue3, Nuxt3</p>
-                                <p>Azure Pipelines</p>
-                                <p>G4A, SEO</p>
+                                <p>Python, Langchain, LlamaIndex, Docker, Ansible</p>
+                                <p>Redis, RESTful APIs, Multi-tenant Architecture</p>
                             </div>
                         </div>
-                        <div class="ml-8">
-                            <ul class="list-disc">
-                                <li>Spearheaded the development of a comprehensive ID verification product, integrating document verification, facial recognition, and bank statement
-                                    analysis, resulting in a 60% reduction in manual processing time and enhanced fraud detection</li>
-                                <li>Implemented the core backend using Python FastAPI, designing robust RESTful APIs to ensure high performance and scalability.</li>
-                                <li>Orchestrated the DevOps strategy, implementing a robust CI/CD pipeline using Docker, Nginx, Linux,, and Azure DevOps.</li>
-                                <li>Built a RAG (Retrieval-Augmented Generation) based LLM Chatbot using Langchain and LlamaIndex, enabling team to extract actionable.</li>
+                        <div class="ml-8 mt-4">
+                            <ul class="list-disc space-y-2">
+                                <li>Built production-ready <span class="font-semibold">RAG-based LLM chatbot</span> using Langchain and LlamaIndex, enabling natural language querying over business data with high user adoption across pilot clients</li>
+                                <li>Transformed monolithic chatbot application into <span class="font-semibold">multi-tenant SaaS platform</span> using Docker and Ansible automation, supporting concurrent clients with fully isolated data environments</li>
+                                <li>Designed and implemented RESTful APIs with rate limiting, authentication middleware, and Redis-based caching to optimize API response times and throughput</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Insight Consultants -->
+        <div class="flex flex-col items-center justify-center my-6">
+            <h2 class="text-2xl font-bold my-3">Insight Consultants</h2>
             <div class="flex flex-row justify-start gap-5 my-6">
-                <div class="bg-gradient-to-b from-[rgba(29,253,179,1)]  to-[rgba(131,58,180,1)] w-1"></div>
-                <div class="max-w-xl">
+                <div class="bg-gradient-to-b from-[#10B981] to-[#059669] w-1 rounded"></div>
+                <div class="max-w-2xl">
                     <div class="flex flex-col">
                         <div class="flex flex-row justify-between">
-                            <p class="text-xl font-bold">Finance Engineer</p>
-                            <p class="text-lg font-bold">March 22 - Oct 22</p>
+                            <p class="text-xl font-bold">Python Developer</p>
+                            <p class="text-lg font-semibold text-gray-600">Mar 2022 - Sep 2024</p>
                         </div>
                         <div class="flex gap-2 my-3">
-                            <div class="font-bold">Working Skills: </div>
+                            <div class="font-bold">Tech Stack:</div>
                             <div>
-                                <p>Python (FastAPI, Pandas, Streamlit)</p>
-                                <p>MongoDB</p>
-                                <p>Docker</p>
-                                <p>PowerBI</p>
-                                <p>Machine Learning</p>
+                                <p>Python, FastAPI, Selenium, Azure OCR</p>
+                                <p>PostgreSQL, Docker, Nginx, Azure DevOps</p>
+                                <p>Facial Recognition APIs, Document Processing</p>
                             </div>
                         </div>
-                        <div class="ml-8">
-                            <ul class="list-disc">
-                                <li><b>Optimized Underwriting with Process Automation:</b> Spearheaded the development of a Python-based automated underwriting process, reducing the manual verification time from 10 minutes to less than 1 minute per customer.</li>
-                                <li><b>Developed Impactful Power BI Dashboards:</b> Designed and built Power BI dashboards to track critical underwriting Key Performance Indicators (KPIs), enabling data-driven decision-making for the underwriting team.</li>
-                                <li><b>Automated Reconciliation Process:</b> Led the implementation of an automated reconciliation project using UiPath and Python, streamlining a previously manual-intensive process and improving efficiency</li>
+                        <div class="ml-8 mt-4">
+                            <ul class="list-disc space-y-2">
+                                <li>Designed and built <span class="font-semibold">loan underwriting automation system</span> using Python, Selenium, and third-party OCR providers; <span class="font-semibold">reduced per-application verification time from 10+ minutes to under 1 minute</span></li>
+                                <li>Architected and deployed RESTful identity verification service using FastAPI, integrating facial recognition and bank statement analysis APIs; achieved <span class="font-semibold">60% reduction in manual processing time</span></li>
+                                <li>Engineered automated data pipelines integrating web scraping, OCR, and rule-based validation to streamline document processing workflows, handling <span class="font-semibold">100+ daily verification requests</span></li>
                             </ul>
                         </div>
                     </div>
@@ -98,6 +103,6 @@
 
 </script>
 
-<style>
+<style scoped>
 
 </style>
