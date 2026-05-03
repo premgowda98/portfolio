@@ -1,0 +1,178 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Prem Kumar G} \\ \vspace{1pt}
+    \small Bengaluru, India $|$
+    \href{mailto:premkumarmvks@gmail.com}{\underline{premkumarmvks@gmail.com}} $|$
+    +91-9538507538 \\
+    \href{https://linkedin.com/in/premgowda98}{\underline{linkedin.com/in/premgowda98}} $|$
+    \href{https://github.com/premgowda98}{\underline{github.com/premgowda98}} $|$
+    \href{https://portfolio.premgowda.in}{\underline{portfolio.premgowda.in}}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{Software Development Engineer with 4+ years building scalable, multi-tenant distributed systems for Fortune 500 retail and fintech platforms. Strong expertise in platform engineering, Kubernetes orchestration, infrastructure-as-code (Terraform, Ansible), and event-driven microservices using Golang and Python. Proven track record in designing CI/CD pipelines, implementing observability solutions (Prometheus, Grafana, OpenTelemetry), and practicing test-driven development with demonstrated success reducing infrastructure overhead by 40\% and improving system reliability to 99.9\% uptime.}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Platform \& Infrastructure}{: Kubernetes (EKS), Docker, Terraform, Ansible, Infrastructure as Code, CI/CD} \\
+     \textbf{Cloud Technologies}{: AWS (Lambda, SQS, S3, EKS), Azure, Multi-tenant Architecture} \\
+     \textbf{Programming Languages}{: Golang, Python (FastAPI, Django)} \\
+     \textbf{Backend \& Messaging}{: Kafka (Avro/CDC), RabbitMQ, Redis, PostgreSQL, RESTful APIs, Microservices} \\
+     \textbf{Observability \& Monitoring}{: Prometheus, Grafana, OpenTelemetry, Dynatrace, Log Management} \\
+     \textbf{DevOps \& Testing}{: Harness CI/CD, GitHub Actions, Test-Driven Development (TDD), Automated Testing} \\
+     \textbf{Data \& AI}{: Databricks, Apache Spark, PySpark, RAG (Langchain, LlamaIndex), LLMs}
+    }}
+ \end{itemize}
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {ZopSmart (Kroger.com)}{Bengaluru, India}
+      {Software Development Engineer 2 (SDE-2)}{December 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Architected Kubernetes-based infrastructure supporting 5-6 microservices processing 1-3 million daily events; implemented HPA optimization, pre-stop hooks, and comprehensive observability stack (Prometheus, Grafana, OpenTelemetry) achieving 99.9\% uptime with real-time monitoring and distributed tracing.}
+        \resumeItem{Designed and implemented Harness CI/CD pipeline for feature environment deployments with infrastructure-as-code practices; reduced environment-related bug escapes by 30\% and cut developer feedback cycles from hours to minutes through isolated testing workflows.}
+        \resumeItem{Built event-driven Kafka pipelines with Avro schema registry pattern processing 20M+ events during peak loads; drove schema standardization across 5+ teams, reducing downstream processing overhead by 40\% while maintaining 100\% backward compatibility.}
+        \resumeItem{Practiced test-driven development (TDD) culture, writing unit and integration tests before implementation; drove 4-month cross-functional data quality initiative increasing platform reliability from 90-95\% to 99\% through automated reconciliation tooling.}
+        \resumeItem{Migrated sensitive credentials to Azure Key Vault for improved security compliance; mentored 2 junior engineers on Kubernetes orchestration, Kafka streaming patterns, and Golang best practices through pair programming and design RFCs.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Edgebricks}{Bengaluru, India}
+      {Backend Engineer}{September 2024 -- November 2024}
+      \resumeItemListStart
+        \resumeItem{\textit{Note: Early-stage AI startup that ceased operations due to funding challenges. Delivered complete MVP within 3-month timeframe.}}
+        \resumeItem{Transformed monolithic chatbot application into production-ready multi-tenant SaaS platform using Docker containerization and Ansible automation; architected tenant isolation with dedicated data environments, tenant-specific configurations, and RESTful platform services implementing authentication, authorization middleware, rate limiting, and Redis-based caching.}
+        \resumeItem{Built RAG-based LLM chatbot using Langchain and LlamaIndex, enabling natural language querying over business data with high user adoption across pilot clients; demonstrated ability to rapidly learn and apply emerging AI technologies.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Insight Consultants}{Bengaluru, India}
+      {Python Developer}{March 2022 -- September 2024}
+      \resumeItemListStart
+        \resumeItem{Designed and built loan underwriting automation platform using Python, Selenium, and Azure OCR; reduced per-application verification time from 10+ minutes to under 1 minute through automated data pipelines handling 100+ daily requests.}
+        \resumeItem{Architected and deployed RESTful identity verification service using FastAPI with Docker containerization; integrated facial recognition and bank statement analysis APIs, achieving 60\% reduction in manual processing time for financial services clients.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Key Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Cloud-Native Logistics Automation Platform}}{2025}
+          \resumeItemListStart
+            \resumeItem{Designed high-availability architecture using AWS Lambda, SQS for message buffering, and RabbitMQ for task distribution to on-premise Kubernetes cluster with MetalLB load balancing; achieved 99.9\% uptime serving construction logistics operations.}
+            \resumeItem{Implemented end-to-end observability using OpenTelemetry, Prometheus, and Grafana for distributed tracing and performance monitoring across microservices; developed WhatsApp-based automation using Gemini AI reducing manual data entry by 90\%.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Build Your Own Redis (BYOR)} $|$ \href{https://github.com/premgowda98/byor}{\underline{github.com/premgowda98/byor}}}{2024}
+          \resumeItemListStart
+            \resumeItem{Implemented production-grade Redis clone in Golang supporting master-slave replication, RDB/AOF persistence, and 8+ data structures; designed custom RESP protocol parser handling concurrent connections with goroutines achieving sub-millisecond latency.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Personal AI Assistant -- Finance \& Inbox Automation}}{2025}
+          \resumeItemListStart
+            \resumeItem{Built automation platform using n8n with PostgreSQL backend for real-time analytics; implemented LLM-based Gmail classification for automatic newsletter categorization, demonstrating rapid adoption of AI/ML technologies for productivity automation.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Global Academy of Technology, Bengaluru}{2015 -- 2019}
+      {Bachelor of Engineering -- Mechanical Engineering}{CGPA: 8.3/10}
+      \resumeItemListStart
+        \resumeItem{Self-taught programming through online courses and bootcamps (Python, Data Structures, Algorithms, Web Development) during final year; successfully transitioned into software engineering through continuous learning and adaptability.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications \& Training}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{RabbitMQ Essentials} (2023) -- Message queuing, high-availability clustering, and broker configuration \\
+     \textbf{Redis University (RU101)} (2024) -- Data structures, performance optimization, and data modeling patterns
+    }}
+ \end{itemize}
+
+\end{document}
